@@ -1,0 +1,267 @@
+@import "./src/links.css";
+@import "./src/images.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', 
+    sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: #F3F3F3;
+    width: 1920px;
+}
+
+header,
+footer {
+    height: 40px;
+    background-color: #232F3F;
+}
+
+.header-info,
+.footer-nav {
+    float: left;
+    width: 500px;
+}
+
+.footer-info span {
+    vertical-align: 40%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.header-nav {
+    margin-top: 12px;
+}
+
+.header-nav,
+.footer-info {
+    float: right;
+}
+
+main {
+    margin: 0 auto;
+    width: 1570px;
+    color: #1A1742;
+}
+
+.main-heading {
+    height: 130px;
+}
+
+h1 {
+    padding: 40px 0 0 10px;
+    letter-spacing: 1.5px;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.main-services,
+.main-solutions,
+.main-learning {
+    float: left;
+    margin:0 0 20px 10px;
+    width: 1080px;
+}
+
+.services-header,
+.explore-header {
+    height: 40px;
+}
+
+.services-header,
+.solution-header,
+.learning-header,
+.mobile-header,
+.explore-header,
+.feedback-header {
+    padding: 20px 0 0 20px;
+    background-color: #FAFAFA;
+    border: 1px solid #EEEEEE;
+}
+
+.solution-header,
+.learning-header {
+    height: 55px;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.search {
+    height: 90px;
+}
+
+.search,
+.visited-services,
+.service-info,
+.solutions-info,
+.learning-info,
+.explore-info {
+    padding: 20px 0 0 20px;
+    background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+}
+
+.search p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.search span,
+.solution-header span,
+.learning-header span {
+    font-size: 0.9em;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+
+.search-panel {
+    margin-top: 10px;
+    height: 26px;
+    width: 95%;
+    border: 1px solid #000000;
+}
+
+button {
+    height: 26px;
+    width: 26px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.visited-services {
+    height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.services-panel {
+    height: 160px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    background-color: #ffffff;
+}
+
+.first-panel,
+.second-panel,
+.third-panel,
+.fouth-panel {
+    float: left;
+    width: 25%;
+    height: 160px;
+
+}
+
+.services-panel li {
+    padding-left: 45px;
+    line-height: 37px;
+    list-style-type: none;
+}
+
+li [class^="fa"] {
+    color: #1A1742;
+}
+
+.service-info,
+.solutions-info,
+.learning-info {
+    height: 40px;
+}
+
+.solutions-panel,
+.courses-panel,
+.mobile-info,
+.feedback-info {
+    border: 1px solid #EEEEEE;
+    background-color: #ffffff;
+}
+
+.solutions-panel {
+    height: 320px;
+}
+
+.courses-panel {
+    height: 300px;
+}
+
+.solutions-panel div,
+.courses-panel div {
+    float: left;
+    padding-top: 20px;
+    height: 125px;
+    width: 25%;
+}
+
+.solutions-panel li,
+.courses-panel li {
+    line-height: 25px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.mobile-app,
+.explore-container,
+.feedback-container {
+    margin: 0 0 20px 1110px ;
+    width: 460px;
+}
+
+.mobile-header {
+    height: 65px;
+}
+
+.mobile-info,
+.feedback-info {
+    padding-top: 20px;
+    height: 70px;
+}
+
+.explore-info {
+    height: 400px;
+    padding: 10px 30px 10px 30px;
+
+}
+
+h3 {
+    margin: 10px 0 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.explore-info p {
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.feedback-header {
+    height: 15px;
+}
+
+.feedback-info {
+    padding: 20px 5px 0 20px;
+}
+
+footer {
+    clear: both;
+}
+
+.footer-nav {
+    margin: 10px 0 0 30px;
+    word-spacing: 30px;
+}
+
+.footer-info span {
+    margin-right: 30px;
+    font-size: 0.8em;
+    color: #D2D8DC;
+}
+
+.footer-info {
+    margin: 10px 30px 0 0;
+}

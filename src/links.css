@@ -1,0 +1,79 @@
+.header-info a,
+.footer-nav a,
+.footer-info a {
+    vertical-align: 40%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.header-info a {
+    margin: 0 0 0 29px;
+}
+
+.header-nav a {
+    margin: 0 35px 0 0;
+    font-size: 0.9em;
+}
+
+.footer-info a {
+    margin-right: 20px;
+}
+
+li a,
+.learning-header a,
+.mobile-info a,
+.learning-info a,
+.explore-info a,
+.feedback-info a,
+.service-info a,
+.solutions-info a,
+.visited-services a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+li a,
+.learning-header a,
+.mobile-info a,
+.learning-info a,
+.explore-info a,
+.feedback-info a {
+    color: #2C7BB1;
+}
+
+.service-info a,
+.solutions-info a,
+.visited-services a {
+    color: #1A1742;
+}
+
+.header-info a,
+.header-nav a,
+.footer-nav a,
+.footer-info a {
+    text-decoration: none;
+    color: #D2D8DC;
+}
+
+button:hover,
+.header-info a:hover,
+.header-nav a:hover,
+.service-info a:hover,
+.solutions-info a:hover,
+.visited-services a:hover,
+.footer-nav a:hover,
+.footer-info a:hover {
+    color: #FF9900;
+}
+
+li a:hover,
+.learning-header a:hover,
+.mobile-info a:hover,
+.learning-info a:hover,
+.explore-info a:hover,
+.feedback-info a:hover {
+    color: #000000;
+}
+
+

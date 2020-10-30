@@ -1,0 +1,21 @@
+.header-info img {
+    margin: 10px 0 0 38px;
+    height: 20px;
+}
+
+.solutions-panel img,
+.courses-panel img {
+    height: 50px;
+    padding-top: 15px;
+}
+
+.mobile-info img {
+    width: 50px;
+    vertical-align: text-top;
+}
+
+.feedback-info img {
+    margin-right: 20px;
+    width: 50px;
+    vertical-align: middle;
+}
